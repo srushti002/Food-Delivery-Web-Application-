@@ -1,0 +1,45 @@
+.container {
+    margin: 100px;
+    
+  }
+  
+  .horizontal-scroll {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  
+  .food-item {
+    margin-right: 38px;
+  }
+  
+  .food-item img {
+    width: 170px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    
+  }
+  .offer-item {
+    margin-right: 100px;
+  }
+  
+  /* .offer-item img  {
+    width: 270px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+  } */
+
+  .offer-item img {
+    width: 270px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Smooth transition for the transform property */
+}
+
+.offer-item img:hover {
+    transform: scale(1.05); /* Scale the image slightly on hover */
+}

@@ -1,0 +1,67 @@
+ .navbar {
+    background-color: #fffffff2;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff; /* Set background color as needed */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
+  z-index: 1000; /* Ensure the navbar appears above other content */
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    
+  }
+  
+  .navbar-logo {
+    color: #211c1c;
+    font-size: 1.5rem;
+    text-decoration: none;
+  
+  
+   
+  }
+  .logo-image{
+
+    width: 70px;
+    height: 70px;
+    
+  }
+  .nav-menu {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  .nav-links {
+    color: #181414;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav-links:hover {
+    color: #fff;
+    background-color: #555;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  .navbar-shadow {
+    box-shadow: 0 2px 5px rgba(105, 103, 103, 0.1); /* Add shadow effect */
+  }
+  
+
+   
