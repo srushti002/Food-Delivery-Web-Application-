@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# Food-Delivery-Web-Application-
+Welcome to our Food Delivery Web Application built using the MERN stack (MongoDB, Express.js, React.js, Node.js)! This application allows users to seamlessly browse through a wide selection of food items, add them to their carts, and place orders for delivery right from the comfort of their homes.
+>>>>>>> 95412a8cc475c167526407ca0195d022f0f1f3a3
